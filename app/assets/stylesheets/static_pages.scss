@@ -1,0 +1,14 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.social {
+  width: 20%;
+  position: absolute;
+  top: 150px;
+  bottom: 70px;
+  ul{
+    li{
+      display: inline-block;
+    }
+  }
+}

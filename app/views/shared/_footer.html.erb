@@ -1,0 +1,8 @@
+
+<footer>
+  <h3>Newsletter</h3>
+  <%= form_for(@newsletter) do |f| %>
+    <%= f.email_field :email, placeholder: "e-mail address" %>
+    <%= f.submit "Save" %>
+  <% end %>
+</footer>
